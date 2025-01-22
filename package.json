@@ -1,0 +1,66 @@
+{
+  "name": "solid-shadcn",
+  "version": "0.0.1",
+  "description": "A collection of accessible and customizable components built with SolidJS and Tailwind CSS",
+  "author": {
+    "name": "7hourspg",
+    "email": "7hourspg@gmail.com",
+    "url": "https://github.com/7hourspg"
+  },
+  "homepage": "https://github.com/7hourspg/solid-shadcn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7hourspg/solid-shadcn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/7hourspg/solid-shadcn/issues"
+  },
+  "keywords": [
+    "solidjs",
+    "tailwindcss",
+    "ui-components",
+    "shadcn",
+    "typescript",
+    "accessibility",
+    "components"
+  ],
+  "private": false,
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx}\"",
+    "lint": "eslint \"src/**/*.{ts,tsx,js,jsx}\" --fix"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-solid": "^0.14.5",
+    "postcss": "^8.4.47",
+    "prettier": "^3.4.2",
+    "solid-devtools": "^0.29.2",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vite-plugin-solid": "^2.8.2"
+  },
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@kobalte/core": "^0.13.7",
+    "@solidjs/router": "^0.14.10",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-solid": "^0.453.0",
+    "solid-js": "^1.8.11",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description"
+    content="A collection of accessible and customizable components built with SolidJS and Tailwind CSS" />
+  <meta name="author" content="7hourspg" />
+  <meta name="keywords" content="solidjs, tailwindcss, ui-components, shadcn, typescript, accessibility, components" />
+  <meta name="repository" content="https://github.com/7hourspg/solid-shadcn" />
+  <meta name="bugs" content="https://github.com/7hourspg/solid-shadcn/issues" />
+  <meta name="homepage" content="https://github.com/7hourspg/solid-shadcn" />
+  <meta name="private" content="false" />
+  <meta name="version" content="0.0.1" />
+  <meta name="license" content="MIT" />
+  <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" />
+  <title>Solid Shadcn</title>
+  <script>
+    // Initialize theme from localStorage or system preference
+    const theme = localStorage.getItem("theme") || "system"
+    const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches
+
+    if (theme === "dark" || (theme === "system" && systemDark)) {
+      document.documentElement.classList.add("dark")
+    }
+  </script>
+</head>
+
+<body class="min-h-screen bg-background text-foreground antialiased transition-colors">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <script src="/src/index.tsx" type="module"></script>
+</body>
+
+</html>
