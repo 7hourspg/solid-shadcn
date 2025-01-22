@@ -41,7 +41,7 @@ const Home: Component = () => {
             </p>
             <div class="space-x-4">
               <Button size="lg" asChild>
-                <A href="/docs">Get Started</A>
+                <A href="https://github.com/7hourspg/solid-shadcn">Get Started</A>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <A href="/components">Components</A>
